@@ -11,5 +11,5 @@
  # USAGE
 
 ```
-$ python detector.py 
+$ python detector.py | run | ./run.sh
 ```
