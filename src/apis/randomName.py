@@ -5,13 +5,13 @@ class Generator :
 
     def __init__(self) :
 
-        self.WALLET_LENGTH = 16
+        self.LENGTH = 16
 
     def generate( self ):
 
         asciiDigits = string.ascii_letters + string.digits
 
-        generateResult = "".join( [random.choice(asciiDigits) for _ in range(self.WALLET_LENGTH)] )
+        generateResult = "".join( [random.choice(asciiDigits) for _ in range(self.LENGTH)] )
 
         stripeGenerateResult = ""
 
